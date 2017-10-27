@@ -1,0 +1,31 @@
+@import "mixin";
+
+
+.icon-index{
+  @include icon-image(1.4rem,1.38rem,"../../assets/dibu/shouye-b@2x.png");
+}
+.icon-task{
+  @include icon-image(1.3rem,1.25rem,"../../assets/dibu/renwu-b@2x.png");
+}
+.icon-msg{
+  @include icon-image(1.38rem,1.38rem,"../../assets/dibu/xiaoxi-b@2x.png");
+}
+.icon-mine{
+  @include icon-image(1.19rem,1.36rem,"../../assets/dibu/wode-b@2x.png");
+}
+.router-link-active{
+  .icon-index{
+    @include icon-image(1.4rem,1.38rem,"../../assets/dibu/shouye-a@2x.png");
+  }
+  .icon-task{
+    @include icon-image(1.3rem,1.25rem,"../../assets/dibu/renwu-a@2x.png");
+  }
+  .icon-msg{
+    @include icon-image(1.38rem,1.38rem,"../../assets/dibu/xiaoxi-a@2x.png");
+  }
+  .icon-mine{
+    @include icon-image(1.19rem,1.36rem,"../../assets/dibu/wode-a@2x.png");
+  }
+}
+.icon-top-arrow{ @include icon-image(1rem,1rem,"../../assets/homepage/lshang2@2x.png");}
+.icon-bottom-arrow{ @include icon-image(1rem,1rem,"../../assets/homepage/lxia2@2x.png");}

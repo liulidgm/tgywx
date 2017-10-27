@@ -1,0 +1,121 @@
+@charset "utf-8";
+/*reset*/
+body,button,input,select,textarea{font:100%/1 "Helvetica Neue",Helvetica,STHeiTi,"Microsoft YaHei" !important;}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea,article,aside,footer,header,hgroup,nav,section,menu{margin:0; padding:0;-webkit-text-size-adjust:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+em,i{font-style:normal;}
+li{list-style:none;}
+img{border:0;}
+input,img{vertical-align:middle;}
+article,aside,footer,header,hgroup,nav,section,menu{display:block;}
+a{text-decoration:none;}
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+html,body{height:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;color: #666666;background-color:#f3f5f7 !important;font-size: 16px !important;}
+a,input,textarea{-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);outline:none; -webkit-font-smoothing:antialiased}
+body{width: 100%;height: 100%;}
+.common-input{
+	border: 1px solid #ccc;
+	height: 2rem;
+	border-radius: 0.2rem;
+	width: 94%;
+	margin-bottom: 1rem;
+	padding: 0.2rem 3%;
+	box-shadow: inset 0 0 0;
+	box-shadow:0px 0px 0px rgba(0,0,0,0);
+    -webkit-appearance:none;
+}
+.common-btn{
+	width: 100%;
+	background: #FFE37F;
+	color:#333;
+	height: 2.75rem;
+	border-radius: 1.375rem;
+	border:0;
+	outline: none;
+}
+
+/*.picker .picker-toolbar{display: none!important;}*/
+
+.mint-popup{border-top-left-radius: 10px;overflow: hidden;border-top-right-radius: 10px;}
+.picker .mint-datetime-picker {border-radius: 1rem;}
+
+.mint-datetime .picker-toolbar{
+	// background: red;
+	// width: 0;
+	// overflow: hidden;
+}
+
+.mint-datetime-cancel{
+	width: 1.19rem !important;height: 1.19rem;
+	background: url(../../src/assets/mine/guanbi@2x.png) no-repeat 0 0 !important;
+	background-size: cover !important;
+}
+.mint-datetime-confirm{border-top: 1px solid #E3E3E3;}
+.mint-datetime-cancel{
+	position: absolute;top: 1rem;right: 2rem;background: #fff;	
+	opacity: 1;display: block;float: none;font-family: PingFangSC-Regular;font-size: .9375rem;color: #0076FF;font-size: 0 !important;}
+.picker-toolbar{
+	border-bottom: 1px solid #E3E3E3;
+}
+.mint-datetime-picker .picker-toolbar:before{
+content:'请选择生日';
+font-size: 0.9375rem;
+font-family: PingFangSC-Regular;
+color: #979797;
+width: 100%;
+height: 3rem;
+line-height: 3rem;
+position: absolute;top: 0;left: 0;
+}
+.mint-datetime-picker .picker-items{
+	height: 260px;
+}
+.picker-items{
+	padding-top: .5rem !important;
+	font-family: PingFangSC-Regular;
+	font-size: 15px;
+	color: #979797;
+	height: 107px;
+}
+
+
+ 
+.mint-datetime-confirm{
+	width: 100%;
+	height: 3rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: regba(0,0,0,0,0);
+	padding: 0 25%;
+	opacity: 1;
+	border-bottom: 1px solid #E5E6E7;
+	z-index: 999999999999;
+	display: block;
+	float: none;
+	font-family: PingFangSC-Regular;
+	font-size: .9375rem;
+	color: #0076FF;
+	line-height: 3rem;
+}
+	
+	
+.inputred::-webkit-input-placeholder {color:red;}
+.inputred::{color:red}
+
+
+
+#oftenaddress{width: 100%;overflow: hidden;background: #fff;display: none;z-index: 99999999999999 !important;position: fixed;left: 0;bottom: 0;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+
+.cityPickerbar:before{content:'请选择省市';width: 100%;height: 40px;line-height: 40px;display: block;position: absolute;left: 0;top: 0;padding: 0;font-family: PingFangSC-Regular;font-size: 0.9375rem;color: #979797;}
+.industryPickerbar:before{content:'请选择行业';width: 100%;height: 40px;line-height: 40px;display: block;position: absolute;left: 0;top: 0;padding: 0;font-family: PingFangSC-Regular;font-size: 0.9375rem;color: #979797;}
+.careerPickerbar:before{content:'请选择职业';width: 100%;height: 40px;line-height: 40px;display: block;position: absolute;left: 0;top: 0;padding: 0;font-family: PingFangSC-Regular;font-size: 0.9375rem;color: #979797;}
+
+
+#oftenaddress:after{content:'确定';width: 100%;height: 3rem;display: block;position: absolute;left: 0;bottom: 0;margin-top: 1.5rem;border-bottom: 1px solid #E5E6E7;padding: 0;line-height: 3rem;border-top: 1px solid #E5E6E7;background: #fff;font-family: PingFangSC-Regular;font-size: 0.9375rem;color: #0076FF;}
+
+
+
+.picker-items{margin-top: 1rem;margin-bottom: 3rem;}
+.nomore{color:#666;margin: 1rem 0;}
+.loadText{color:#666;}

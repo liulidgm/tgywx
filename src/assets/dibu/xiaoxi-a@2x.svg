@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/dibu/xiaoxi-a@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.4741558,19.1652354 C21.4598075,18.9307252 23,17.2417506 23,15.1930448 L23,15.1930448 L23,4 C23,1.790861 21.209139,1.55629733e-15 19,0 L5,0 L5,0 C2.790861,4.05812251e-16 1,1.790861 1,4 L1,15.1930448 C1,17.4021838 2.790861,19.1930448 5,19.1930448 L5,19.1930448 L16.2564892,19.1930448 L16.9311902,22 L19.4741558,19.1652354 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/dibu/xiaoxi-a">
+            <g id="Combined-Shape-Copy">
+                <use fill="#FFD743" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#282E37" stroke-width="1" d="M17.1948127,20.9573515 L19.228029,18.6908286 L19.4155122,18.6686864 C21.1662547,18.4619195 22.5,16.9714936 22.5,15.1930448 L22.5,4 C22.5,2.06700338 20.9329966,0.5 19,0.5 L5,0.5 C3.06700338,0.5 1.5,2.06700338 1.5,4 L1.5,15.1930448 C1.5,17.1260414 3.06700338,18.6930448 5,18.6930448 L16.6505467,18.6930448 L17.1948127,20.9573515 Z"></path>
+            </g>
+            <ellipse id="Oval-4-Copy-5" stroke="#282E37" fill="#FFD743" cx="6.95652174" cy="10.0662803" rx="1" ry="1.06628027"></ellipse>
+            <ellipse id="Oval-4-Copy-4" stroke="#282E37" fill="#FFD743" cx="11.9565217" cy="10.0662803" rx="1" ry="1.06628027"></ellipse>
+            <ellipse id="Oval-4-Copy-3" stroke="#282E37" fill="#FFD743" cx="16.9565217" cy="10.0662803" rx="1" ry="1.06628027"></ellipse>
+        </g>
+    </g>
+</svg>
